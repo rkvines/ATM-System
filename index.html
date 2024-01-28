@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> King Bank </title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+
+    <!-- Body Content -->
+    <section id="Welcoome-Page">
+        <h1>WelCome To King Bank</h1>
+        <button id="next-atm">Start ATM</button>
+    </section>
+
+    <section id="Pin-Page" class="PinPage">
+        <h2 id="Bank-Name">KING BANK</h2>
+        <input type="number" name="pincode" placeholder="Enter Your Pincode" id="user-pin">
+        <button id="PinCheck">Pincheck</button>
+    </section>
+
+    <section id="Atm-Page" class="AtmPage">
+        <h2 id="Bank-Name">KING BANK</h2>
+        <br>
+        <ul>
+            <li id="Balance">Check Balance</li>
+            <li id="DepositeMoney">Deposite Money</li>
+            <li id="WithDrawMoney">Withdraw Money</li>
+            <li id="Logout">Logout</li>
+        </ul>
+        <button id="Enter-Value">Enter</button>
+    </section>
+
+    <div class="popup" id="Popup">
+        <div class="popup-nav">
+            <i class='bx bxs-x-circle' id="popup-cls-btn"></i>
+        </div>
+        <div class="popup-content">
+            <p id="popup-content-result"></p>
+        </div>
+    </div>
+
+    <!-- Javascript file link here -->
+    <script src="main.js"></script>
+
+</body>
+
+</html>
